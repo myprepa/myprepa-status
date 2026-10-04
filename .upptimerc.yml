@@ -1,4 +1,4 @@
-owner: hmdmsd
+owner: myprepa
 repo: myprepa-status
 
 sites:
@@ -42,7 +42,7 @@ status-website:
     - title: MyPrepa
       href: https://myprepa.tn
     - title: GitHub
-      href: https://github.com/hmdmsd/myprepa-status
+      href: https://github.com/myprepa/myprepa-status
 
 
 i18n:
