@@ -1,6 +1,11 @@
 owner: myprepa
 repo: myprepa-status
 
+# Outage issues are assigned to both engineers so GitHub notifies them.
+assignees:
+  - hmdmsd
+  - Ghassen-Hizem
+
 sites:
   - name: MyPrepa Web
     url: https://myprepa.tn
