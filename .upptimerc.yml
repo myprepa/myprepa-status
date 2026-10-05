@@ -21,6 +21,16 @@ sites:
     expectedStatusCodes:
       - 200
       - 307
+  - name: Agents Console
+    url: https://agents.myprepa.tn
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: Teachers Console
+    url: https://teachers.myprepa.tn
+    expectedStatusCodes:
+      - 200
+      - 307
   - name: CDN (R2)
     url: https://cdn.myprepa.tn
     expectedStatusCodes:
@@ -35,7 +45,7 @@ status-website:
   logoUrl: https://myprepa.tn/favicon.svg
   name: MyPrepa Status
   introTitle: "**MyPrepa.tn** uptime + incident history."
-  introMessage: Live status of the MyPrepa platform — web, API, admin, docs, ops, CDN. Powered by GitHub Actions, no extra infra. Incidents and historical response times are public.
+  introMessage: Live status of the MyPrepa platform — web, API, admin, ops, agents, docs, teachers and CDN. Powered by GitHub Actions, no extra infra. Incidents and historical response times are public.
   navbar:
     - title: Status
       href: /
