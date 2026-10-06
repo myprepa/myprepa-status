@@ -46,7 +46,7 @@ sites:
       - 404
 
 status-website:
-  cname: status.myprepa.tn
+  baseUrl: /myprepa-status
   logoUrl: https://myprepa.tn/favicon.svg
   name: MyPrepa Status
   introTitle: "**MyPrepa.tn** uptime + incident history."
