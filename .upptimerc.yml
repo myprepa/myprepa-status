@@ -55,6 +55,39 @@ sites:
       - 403
       - 404
 
+  # myprepa.org (e-learning platform on VPS1) — added 2026-11-14
+  - name: MyPrepa.org Web
+    url: https://myprepa.org
+  - name: MyPrepa.org API
+    url: https://api.myprepa.org/api/health
+  - name: MyPrepa.org Admin
+    url: https://admin.myprepa.org
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: MyPrepa.org Bureau
+    url: https://bureau.myprepa.org
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: MyPrepa.org Professeurs
+    url: https://instructor.myprepa.org
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: MyPrepa.org HQ
+    url: https://hq.myprepa.org
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: MyPrepa.org Studio
+    url: https://studio.myprepa.org
+    expectedStatusCodes:
+      - 200
+      - 307
+  - name: MyPrepa.org Media (R2)
+    url: https://media.myprepa.org/studio/my-python-2027-short/main/cover.jpg?v=fff249e008f4
+
 status-website:
   cname: status.myprepa.tn
   logoUrl: https://myprepa.tn/favicon.svg
